@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Object">
+
+
+    <test name="ObjectBasicInfoTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="lihh.javaLearn.webAutoTest.test1"/>
+        </classes>
+    </test>
+
+    <!--<test name="ObjectBasicInfoTest">-->
+    <!--<parameter name="browser" value="chrome"/>-->
+    <!--<classes>-->
+    <!--<class name="com.facishare.automation.object.tests.ObjectBasicInfoTest"/>-->
+    <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="ObjectManageTest">-->
+    <!--<parameter name="browser" value="chrome"/>-->
+    <!--<classes>-->
+    <!--<class name="com.facishare.automation.object.tests.ObjectManageTest"/>-->
+    <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="FieldManageTest">-->
+    <!--<parameter name="browser" value="chrome"/>-->
+    <!--<classes>-->
+    <!--<class name="com.facishare.automation.object.tests.FieldManageTest"/>-->
+    <!--</classes>-->
+    <!--</test>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;<test name="test">&ndash;&gt;-->
+    <!--&lt;!&ndash;<parameter name="browser" value="chrome"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<classes>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</classes>&ndash;&gt;-->
+    <!--</test>-->
+</suite>
