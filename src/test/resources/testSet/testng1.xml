@@ -6,7 +6,7 @@
     <parameter name="env" value="${env}"/>
     <test name="ObjectBasicInfoTest">
         <classes>
-            <class name="lihh.javaLearn.webAutoTest.TestOfMy"/>
+            <class name="lihh.javaLearn.webAutoTest.test2"/>
         </classes>
     </test>
 

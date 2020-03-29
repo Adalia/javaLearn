@@ -9,9 +9,9 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class TestOfMy {
 
 
+public class test2 {
     /**
      * 在给定的时间内去查找元素，如果没找到则超时，抛出异常
      * */
@@ -33,7 +33,7 @@ public class TestOfMy {
     @Parameters("env")
     @Test
     void  test4(String env) throws Exception{
-        System.out.println("________________哈哈哈"+env+"——————————————————————————");
+        System.out.println("*****************testng1.xml文件中的用例，环境："+env+"*****************");
         WebDriverManager.chromedriver().setup();
 
 //        WebDriver driver = new ChromeDriver();
@@ -125,26 +125,26 @@ public class TestOfMy {
 //
 //        element.click();
 
-/*        try{
-            element.click();
-        }
-        catch (ElementClickInterceptedException e){
-            System.err.println("ElementClickInterceptedException error:::" + e);
-
-            try{
-            }catch (JavascriptException e1) {
-                System.err.println("ElementClickInterceptedException error:::" + e1);
-            }
-
-        }*/
-
-
-        //jsExecutor.executeScript("alert('hello,selenium');");
-/*        try {
-            jsExecutor.executeScript("window.document.querySelector(\".td-cell-edit.td-cell-edit33\").innerText = 60");
-        }catch (JavascriptException e) {
-            System.err.println("executeScript error:::" + e);
-        }
-        element.click();*/
+//        try{
+//            element.click();
+//        }
+//        catch (ElementClickInterceptedException e){
+//            System.err.println("ElementClickInterceptedException error:::" + e);
+//
+//            try{
+//            }catch (JavascriptException e1) {
+//                System.err.println("ElementClickInterceptedException error:::" + e1);
+//            }
+//
+//        }
+//
+//
+//        //jsExecutor.executeScript("alert('hello,selenium');");
+//        try {
+//            jsExecutor.executeScript("window.document.querySelector(\".td-cell-edit.td-cell-edit33\").innerText = 60");
+//        }catch (JavascriptException e) {
+//            System.err.println("executeScript error:::" + e);
+//        }
+//        element.click();
     }
 }

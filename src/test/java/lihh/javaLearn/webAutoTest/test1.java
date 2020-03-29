@@ -18,7 +18,7 @@ public class test1
     public void shouldAnswerWithTrue(String env)
     {
         WebDriverManager.chromedriver().setup();
-        System.out.println("________________嘻嘻嘻"+env+"——————————————————————————");
+        System.out.println("***************testng.xml文件中的用例，环境："+env+"*********************");
         String url = "file:///Users/lihaihui/Documents/CodeEnv/javaLearn/src/test/resources/index" +
                 ".html";
         driver = new ChromeDriver();
