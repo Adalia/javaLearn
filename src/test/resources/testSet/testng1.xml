@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Object">
 
-
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="${env}"/>
     <test name="ObjectBasicInfoTest">
-        <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="lihh.javaLearn.webAutoTest.test1"/>
+            <class name="lihh.javaLearn.webAutoTest.TestOfMy"/>
         </classes>
     </test>
 

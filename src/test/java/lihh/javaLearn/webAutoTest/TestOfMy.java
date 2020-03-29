@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestOfMy {
@@ -16,6 +17,7 @@ public class TestOfMy {
      * */
     public static void waitForElementToLoad(WebDriver driver, int timeOut, final By By) {
         WebDriverManager.chromedriver().setup();
+
         try {
             (new WebDriverWait(driver, timeOut)).until(new ExpectedCondition<Boolean>() {
 
@@ -28,9 +30,10 @@ public class TestOfMy {
             Assert.fail("超时!! " + timeOut + " 秒之后还没找到元素 [" + By + "]");
         }
     }
-
+    @Parameters("env")
     @Test
-    void  test4() throws Exception{
+    void  test4(String env) throws Exception{
+        System.out.println("________________哈哈哈"+env+"——————————————————————————");
         WebDriverManager.chromedriver().setup();
 
 //        WebDriver driver = new ChromeDriver();
