@@ -47,6 +47,9 @@
             <suiteXmlFiles>
               <suiteXmlFile>${suiteXmlFiles}</suiteXmlFile>
             </suiteXmlFiles>
+            <systemPropertyVariables>
+              <propertyName>${env}</propertyName>
+            </systemPropertyVariables>
             <useSystemClassLoader>false</useSystemClassLoader>
           </configuration>
       </plugin>

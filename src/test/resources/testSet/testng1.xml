@@ -3,7 +3,7 @@
 <suite name="Object">
 
     <parameter name="browser" value="chrome"/>
-    <parameter name="env" value="${env}"/>
+    <!--<parameter name="env" value="${env}"/>-->
     <test name="ObjectBasicInfoTest">
         <classes>
             <class name="lihh.javaLearn.webAutoTest.test2"/>
